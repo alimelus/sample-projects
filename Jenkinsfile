@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        // PATH = "/opt/apache-maven-3.8.2/bin:$PATH"
+         PATH = "opt/apache-maven-3.8.6/bin:$PATH"
         }
     /*environment {
         // This can be nexus3 or nexus2
@@ -20,7 +20,7 @@ pipeline {
             steps {
                 script {
                     // Let's clone the source
-                    git 'https://github.com/alimelus/sample-java-project.git';
+                    git 'https://github.com/alimelus/sample-projects.git';
                 }
             }
         }
