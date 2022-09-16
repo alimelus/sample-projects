@@ -1,7 +1,7 @@
 pipeline {
     agent any
-    environment {
-         PATH = "opt/apache-maven-3.8.6/bin:$PATH"
+    tools { 
+        maven 'Maven 3.8.6' 
         }
     /*environment {
         // This can be nexus3 or nexus2
