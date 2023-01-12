@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools { 
-        maven 'Maven 3.8.6' 
+        maven 'Maven 3.8.7' 
         }
     /*environment {
         // This can be nexus3 or nexus2
